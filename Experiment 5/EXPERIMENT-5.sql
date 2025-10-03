@@ -48,10 +48,10 @@ CREATE TABLE customer_data (
 -- Insert sample data
 INSERT INTO customer_data (customer_name, email, phone, payment_info, order_value)
 VALUES
-('Mandeep Kaur', 'mandeep@example.com', '9040122324', '1234-5678-9012-3456', 500),
-('Mandeep Kaur', 'mandeep@example.com', '9040122324', '1234-5678-9012-3456', 1000),
-('Jaskaran Singh', 'jaskaran@example.com', '9876543210', '9876-5432-1098-7654', 700),
-('Jaskaran Singh', 'jaskaran@example.com', '9876543210', '9876-5432-1098-7654', 300);
+('Tanmay Singh', 'tanmay@example.com', '9040122324', '1234-5678-9012-3456', 500),
+('Aniket Chugh', 'aniket@example.com', '9040122324', '1234-5678-9012-3456', 1000),
+('Jyoti Kumari', 'jyoti@example.com', '9876543210', '9876-5432-1098-7654', 700),
+('Rohan', 'rohan@example.com', '9876543210', '9876-5432-1098-7654', 300);
 
 CREATE OR REPLACE VIEW RESTRICTED_SALES_DATA AS
 SELECT
